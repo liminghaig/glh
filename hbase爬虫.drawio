@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2020-05-12T04:13:56.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" version="13.1.0" etag="Jan8D7PKjV08OR5R02GG" type="github"><diagram id="B9H4arzu3_APqLQOFF7w">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-12T04:14:44.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="mRVn6ohJnVsKgOqx9Q73" version="13.1.0" type="github">
+  <diagram id="B9H4arzu3_APqLQOFF7w" name="第 1 页">
+    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="576" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="323" width="290" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-3" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I_kCGY0lgDb1L2jrlA7V-4" target="I_kCGY0lgDb1L2jrlA7V-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-4" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;Internet&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-5" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;Internet&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="191" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_kCGY0lgDb1L2jrlA7V-8" target="I_kCGY0lgDb1L2jrlA7V-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="201" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-9" value="爬虫" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="211" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.646;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="I_kCGY0lgDb1L2jrlA7V-12" target="I_kCGY0lgDb1L2jrlA7V-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-11" value="3 bigtable的web搜索" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I_kCGY0lgDb1L2jrlA7V-10">
+          <mxGeometry x="-0.2335" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-12" value="bigtable" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="179.5" width="130" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-13" value="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I_kCGY0lgDb1L2jrlA7V-14" target="I_kCGY0lgDb1L2jrlA7V-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="620" />
+              <mxPoint x="620" y="620" />
+              <mxPoint x="620" y="680" />
+              <mxPoint x="770" y="680" />
+              <mxPoint x="770" y="623" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-14" value="web搜索" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="593" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I_kCGY0lgDb1L2jrlA7V-16" target="I_kCGY0lgDb1L2jrlA7V-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-16" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="593" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-17" value="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_kCGY0lgDb1L2jrlA7V-18" target="I_kCGY0lgDb1L2jrlA7V-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-18" value="搜索索引" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="570" y="410" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-19" value="2&lt;br&gt;MR" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="300" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-20" value="搜索索引" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="580" y="420" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-21" value="搜索索引" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="590" y="430" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-22" value="&lt;h1&gt;建立互联网索引&lt;/h1&gt;&lt;p&gt;1.爬虫持续不断从互联网抓取新页面，这些页面每页一行的存储到bigtable里面。&lt;/p&gt;&lt;p&gt;2.MR计算运行在整张表上，生成索引，为网页搜索做准备&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="340" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="I_kCGY0lgDb1L2jrlA7V-23" value="&lt;h1&gt;搜索互联网&lt;/h1&gt;&lt;p&gt;3.用户发起网络搜索的请求&lt;/p&gt;&lt;p&gt;4.网络搜索应用查询建立好的索引直接从bigtable得到匹配的文件&lt;/p&gt;&lt;p&gt;5.将搜索的结果提交给用户&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="580" width="190" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
