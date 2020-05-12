@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-12T07:02:19.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="H_lsBcuoOC08ZcTyd563" version="13.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-12T07:19:02.098Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="2qUMGpMW6U_TUCvYrbtT" version="13.1.0" type="github">
   <diagram id="2Z2heoTGFe1Qs4jh3SYo" name="第 1 页">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,6 +7,9 @@
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-2" value="&lt;h1&gt;说明&lt;/h1&gt;&lt;p&gt;一个表，有表名&lt;/p&gt;&lt;p&gt;一个表可以分为多个列簇（不同列簇的数据会存储在不同文件中）&lt;/p&gt;&lt;p&gt;表中的每一行有一个“行键rowkey”，而且行键在表中不能重复&lt;/p&gt;&lt;p&gt;表中的每一对kv数据称作一个cell&lt;/p&gt;&lt;p&gt;hbase可以对数据存储多个历史版本（历史版本数量可配置）&lt;/p&gt;&lt;p&gt;整张表由于数据量过大，会被横向切分若干个region（用rowkey范围标识），不同region的数据也存储在不同文件中&lt;/p&gt;&lt;p&gt;hbase会对插入的数据按字典顺序存储：1.首先会按照行键排序；2.同一行里面的kv会按照列簇排序，在按k排序&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="300" width="630" height="240" as="geometry" />
         </mxCell>
+        <mxCell id="PbBiNdgr8S9KA7dD1dcD-53" value="物理存储结构" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.236;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PbBiNdgr8S9KA7dD1dcD-8" target="PbBiNdgr8S9KA7dD1dcD-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-8" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;rowkey&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;时间戳&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;列簇info&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;Value 1&lt;/td&gt;&lt;td&gt;T2&lt;/td&gt;&lt;td&gt;info:age=&#39;1980-1-1&#39;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;Value 4&lt;/td&gt;&lt;td&gt;T3&lt;/td&gt;&lt;td&gt;info:sex=&#39;man&#39;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;changfei&lt;/td&gt;&lt;td&gt;T10&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;...&lt;/td&gt;&lt;td&gt;Tn&lt;/td&gt;&lt;td&gt;info:age=&#39;1986-2-1&#39;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="100" y="110" width="380" height="160" as="geometry" />
         </mxCell>
@@ -14,46 +17,64 @@
           <mxGeometry x="104" y="143" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-23" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;rounded=0;comic=0;gradientColor=#7ea6e0;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="490" y="110" width="620" height="360" as="geometry" />
+          <mxGeometry x="610" y="110" width="620" height="360" as="geometry" />
         </mxCell>
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-24" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;rounded=0;comic=0;strokeColor=#9673a6;align=left;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="520" y="180" width="270" height="260" as="geometry" />
+          <mxGeometry x="640" y="180" width="270" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="PbBiNdgr8S9KA7dD1dcD-26" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;rounded=0;comic=0;strokeColor=#006EAF;align=left;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="530" y="233" width="110" height="160" as="geometry" />
+        <mxCell id="PbBiNdgr8S9KA7dD1dcD-26" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;rounded=0;comic=0;strokeColor=none;align=left;fillColor=#1ba1e2;fontColor=#ffffff;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="233" width="110" height="160" as="geometry" />
         </mxCell>
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-37" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;rounded=0;comic=0;strokeColor=#006EAF;align=left;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="660" y="233" width="110" height="160" as="geometry" />
+          <mxGeometry x="780" y="233" width="110" height="160" as="geometry" />
         </mxCell>
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-30" value="regionServer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="140" width="40" height="20" as="geometry" />
+          <mxGeometry x="650" y="140" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-31" value="region" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="203" width="40" height="20" as="geometry" />
+          <mxGeometry x="650" y="203" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-33" value="tableDate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="725" y="400" width="40" height="20" as="geometry" />
+          <mxGeometry x="845" y="400" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-36" value="columoFamily" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="243" width="40" height="20" as="geometry" />
+          <mxGeometry x="680" y="243" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-41" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;rounded=0;comic=0;strokeColor=#9673a6;align=left;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="810" y="180" width="270" height="260" as="geometry" />
+          <mxGeometry x="930" y="180" width="270" height="260" as="geometry" />
         </mxCell>
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-42" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;rounded=0;comic=0;strokeColor=#006EAF;align=left;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="820" y="233" width="110" height="160" as="geometry" />
+          <mxGeometry x="940" y="233" width="110" height="160" as="geometry" />
         </mxCell>
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-43" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;rounded=0;comic=0;strokeColor=#006EAF;align=left;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="950" y="233" width="110" height="160" as="geometry" />
+          <mxGeometry x="1070" y="233" width="110" height="160" as="geometry" />
         </mxCell>
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-44" value="region" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="820" y="203" width="40" height="20" as="geometry" />
+          <mxGeometry x="940" y="203" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-45" value="tableDate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="1015" y="400" width="40" height="20" as="geometry" />
+          <mxGeometry x="1135" y="400" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PbBiNdgr8S9KA7dD1dcD-46" value="columoFamily" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="243" width="40" height="20" as="geometry" />
+          <mxGeometry x="970" y="243" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PbBiNdgr8S9KA7dD1dcD-47" value="columoFamily" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="243" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PbBiNdgr8S9KA7dD1dcD-48" value="columoFamily" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="243" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PbBiNdgr8S9KA7dD1dcD-49" value="store" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="685" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PbBiNdgr8S9KA7dD1dcD-50" value="store" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PbBiNdgr8S9KA7dD1dcD-51" value="store" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PbBiNdgr8S9KA7dD1dcD-52" value="store" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="320" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
