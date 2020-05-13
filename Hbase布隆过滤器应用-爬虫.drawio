@@ -1,104 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2020-05-13T08:16:43.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="xc4OtcY7ZYsbifcl5GTf" version="13.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-13T08:37:39.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="mlLa29PV4jif4Wtb1ezY" version="13.1.1" type="github">
   <diagram id="c0SYNmFSuh291ioml7VO" name="第 1 页">
-    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-3" value="www.baidu.com" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YJQM2aYZNnQNSAdNNoH3-1" target="YJQM2aYZNnQNSAdNNoH3-2">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-3" value="www.baidu.com" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YJQM2aYZNnQNSAdNNoH3-1" target="YJQM2aYZNnQNSAdNNoH3-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-1" value="爬虫" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-1" value="爬虫" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-2" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-2" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="132.75" width="480" height="374.5" as="geometry" />
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-4" value="index.jsp" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-4" value="index.jsp" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="350" y="270" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-5" value="a.jsp" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-5" value="a.jsp" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="490" y="210" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-6" value="b.jsp" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-6" value="b.jsp" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="500" y="360" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-9" value="" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=80;exitDy=65;exitPerimeter=0;" edge="1" parent="1" source="YJQM2aYZNnQNSAdNNoH3-4">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-9" value="" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=80;exitDy=65;exitPerimeter=0;" parent="1" source="YJQM2aYZNnQNSAdNNoH3-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="320" as="sourcePoint" />
             <mxPoint x="490" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-10" value="" style="endArrow=classic;html=1;entryX=0.438;entryY=0.901;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-10" value="" style="endArrow=classic;html=1;entryX=0.438;entryY=0.901;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="340" as="sourcePoint" />
             <mxPoint x="500.24" y="400.1745000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-11" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-11" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="268" as="sourcePoint" />
             <mxPoint x="510" y="268" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-12" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-12" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="559" y="278" as="sourcePoint" />
             <mxPoint x="509" y="278" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-13" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-13" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="561" y="288" as="sourcePoint" />
             <mxPoint x="511" y="288" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-14" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-14" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="561" y="298" as="sourcePoint" />
             <mxPoint x="511" y="298" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-15" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-15" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="565" y="420" as="sourcePoint" />
             <mxPoint x="515" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-16" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-16" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="567" y="430" as="sourcePoint" />
             <mxPoint x="517" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-17" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-17" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="568" y="440" as="sourcePoint" />
             <mxPoint x="518" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-18" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-18" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="567" y="450" as="sourcePoint" />
             <mxPoint x="517" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-19" value="&lt;h1&gt;问题&lt;/h1&gt;&lt;p&gt;1、如果a网页包含了b网页的链接，b网页也包含了a网页的链接，就陷入了死循环&lt;/p&gt;&lt;p&gt;这个问题如何解决？&lt;/p&gt;&lt;p&gt;-可以将爬过的url存放到数据库中，这个方案在数据规模小的情况可以，但是数据量一旦大量起来，存数据本身就产生了问题，存还是小事，关键是取的时候噩梦就来了，所以此方法不可取。&lt;/p&gt;&lt;p&gt;-布隆过滤器（实际的解决方案）&lt;/p&gt;&lt;p&gt;先获取到你的url&lt;/p&gt;&lt;p&gt;使用一个hash算法，返回8bit的索引数字&lt;/p&gt;&lt;p&gt;对应64k的二进制数组中对应上我们的8个索引&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="460" width="690" height="280" as="geometry" />
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-19" value="&lt;h1&gt;问题&lt;/h1&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;1、如果a网页包含了b网页的链接，b网页也包含了a网页的链接，就陷入了死循环&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;这个问题如何解决？&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;-可以将爬过的url存放到数据库中，这个方案在数据规模小的情况可以，但是数据量一旦大量起来，存数据本身就产生了问题，存还是小事，关键是取的时候噩梦就来了，所以此方法不可取。&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;-布隆过滤器（实际的解决方案）&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;先获取到你的url&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;使用一个hash算法，返回8bit的索引数字&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;对应64k的二进制数组中对应上我们的8个索引&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="460" width="690" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-22" value="&lt;!--StartFragment--&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/2785001-07e149c32a2608fa.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/600/format/webp&quot;&gt;&lt;!--EndFragment--&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="132.75" width="30" height="30" as="geometry" />
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-22" value="&lt;!--StartFragment--&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/2785001-07e149c32a2608fa.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/600/format/webp&quot;&gt;&lt;!--EndFragment--&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="230" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-23" value="&lt;!--StartFragment--&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/2785001-12449becdb038afd.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/600/format/webp&quot;&gt;&lt;!--EndFragment--&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="372.75" width="30" height="30" as="geometry" />
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-23" value="&lt;!--StartFragment--&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/2785001-12449becdb038afd.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/600/format/webp&quot;&gt;&lt;!--EndFragment--&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="470" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-24" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="292.75" width="70" height="100" as="geometry" />
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-24" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="390" width="70" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-25" value="&lt;h1&gt;布隆过滤器原理&lt;/h1&gt;&lt;p&gt;1、url:baidu ---&amp;gt; hash(1,4,7) ---&amp;gt; 发现对应的数组的索引的元素值只要有一个是0，就说明这个url没有爬过，我们就爬，爬完之后将这个数组中对应的元素标记为1&lt;/p&gt;&lt;p&gt;2、url:tencent ---&amp;gt; hash(3,4,8) ---&amp;gt;&amp;nbsp;&lt;span&gt;值得注意的是，4 这个 bit 位由于两个值的哈希函数都返回了这个 bit 位，因此它被覆盖了。现在我们如果想查询 “dianping” 这个值是否存在，哈希函数返回了 1、5、8三个值，结果我们发现 5 这个 bit 位上的值为 0，说明没有任何一个值映射到这个 bit 位上，因此我们可以很确定地说 “dianping” 这个值不存在。而当我们需要查询 “baidu” 这个值是否存在的话，那么哈希函数必然会返回 1、4、7，然后我们检查发现这三个 bit 位上的值均为 1，那么我们可以说 “baidu” 存在了么？答案是不可以，只能是 “baidu” 这个值可能存在。&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;p&gt;这是为什么呢？答案跟简单，因为随着增加的值越来越多，被置为 1 的 bit 位也会越来越多，这样某个值 “taobao” 即使没有被存储过，但是万一哈希函数返回的三个 bit 位都被其他值置位了 1 ，那么程序还是会判断 “taobao” 这个值存在。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="720" width="670" height="240" as="geometry" />
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-25" value="&lt;h1&gt;布隆过滤器原理&lt;/h1&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;1、url:baidu ---&amp;gt; hash(1,4,7) ---&amp;gt; 发现对应的数组的索引的元素值只要有一个是0，就说明这个url没有爬过，我们就爬，爬完之后将这个数组中对应的元素标记为1&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;2、url:tencent ---&amp;gt; hash(3,4,8) ---&amp;gt;&amp;nbsp;&lt;span&gt;值得注意的是，4 这个 bit 位由于两个值的哈希函数都返回了这个 bit 位，因此它被覆盖了。现在我们如果想查询 “dianping” 这个值是否存在，哈希函数返回了 1、5、8三个值，结果我们发现 5 这个 bit 位上的值为 0，说明没有任何一个值映射到这个 bit 位上，因此我们可以很确定地说 “dianping” 这个值不存在。而当我们需要查询 “baidu” 这个值是否存在的话，那么哈希函数必然会返回 1、4、7，然后我们检查发现这三个 bit 位上的值均为 1，那么我们可以说 “baidu” 存在了么？答案是不可以，只能是 “baidu” 这个值可能存在。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;div&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;这是为什么呢？答案跟简单，因为随着增加的值越来越多，被置为 1 的 bit 位也会越来越多，这样某个值 “taobao” 即使没有被存储过，但是万一哈希函数返回的三个 bit 位都被其他值置位了 1 ，那么程序还是会判断 “taobao” 这个值存在。&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="770" width="670" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="YJQM2aYZNnQNSAdNNoH3-26" value="&lt;!--StartFragment--&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/2785001-802577f6332d76b4.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/600/format/webp&quot;&gt;&lt;!--EndFragment--&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="662.75" width="30" height="30" as="geometry" />
+        <mxCell id="YJQM2aYZNnQNSAdNNoH3-26" value="&lt;!--StartFragment--&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/2785001-802577f6332d76b4.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/600/format/webp&quot;&gt;&lt;!--EndFragment--&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="760" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
