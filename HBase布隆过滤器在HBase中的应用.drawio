@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-05-13T08:24:49.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" version="13.1.1" etag="FaFFmnpW2aOGRBuGUUS-" type="github"><diagram id="SevmCK40mXmbiVEVTYU5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-13T08:34:28.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="u1sFfZb0_Wy90NId5B2i" version="13.1.1" type="github">
+  <diagram id="SevmCK40mXmbiVEVTYU5" name="第 1 页">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c3S0u0TuINotEP8UHHpt-2" value="&lt;!--StartFragment--&gt;&lt;img src=&quot;https://timgsa.baidu.com/timg?image&amp;amp;quality=80&amp;amp;size=b9999_10000&amp;amp;sec=1589368441992&amp;amp;di=2b01ea0042feb47a82c94acaac270818&amp;amp;imgtype=0&amp;amp;src=http%3A%2F%2Fwww.uml.org.cn%2Fbigdata%2Fimages%2F20180705410.jpg&quot;&gt;&lt;!--EndFragment--&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c3S0u0TuINotEP8UHHpt-3" value="&lt;h1&gt;说明&lt;/h1&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;scan &#39;t1&#39;,&#39;001&#39;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;布隆过滤器是HBase中的高级功能，它的主要作用减少特定的访问模式（get/scan）的查询时间。但是使用布隆过滤器会消耗内存和存储负担，所以早期的HBase中默认是关闭的，但是现在的版本是默认开启的。布隆过滤器有以下：&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;1、NONE：不使用布隆过滤器&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;2、ROW：行键使用布隆过滤器&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;3、ROWCOL：行键和列簇使用布隆过滤器，说白了就是比ROW模式更细粒度的模式&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="960" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
